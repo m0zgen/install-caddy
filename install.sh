@@ -84,7 +84,7 @@ instalDebian() {
 
     if ! [ -x "$(command -v caddy)" ]; then
         echo "Caddy installation process starting..."
-        pushDocker
+        pushCaddy
     else
         echo "Caddy already installed. Exit. Bye."
         exit 1
