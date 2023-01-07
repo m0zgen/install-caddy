@@ -87,7 +87,7 @@ instalDebian() {
         pushCaddy
     else
         echo "Caddy already installed. Exit. Bye."
-        exit 1
+        exit 0
     fi
 
 
